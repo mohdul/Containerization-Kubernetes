@@ -18,7 +18,7 @@ Steps to run the same example
 
 4. Use the doployment files as is
 
-        cd kustomiz
+        cd kustomize
 
         kubectl apply -f deployment.yaml
         kubectl apply -f service.yaml
@@ -31,7 +31,7 @@ Steps to run the same example
 replace this         image: ghcr.io/stefanprodan/podinfo:6.4.0 with your image uri
 
 
+6. To modify the color edit deployment file and change this value
 
-
-
+        value: "#34577c"
 
